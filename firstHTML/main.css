@@ -1,0 +1,94 @@
+* {
+    box-sizing: content-box;
+    margin: 0;
+    padding: 0;
+}
+
+.body {
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(90deg, rgba(7,87,56,1) 0%, rgba(15,163,107,1) 50%, rgba(13,187,121,1) 100%);
+    display: grid;
+    grid-template-columns: 100vw; 
+    grid-template-rows: 10vh 60vh 30vh;
+}
+
+.header {   /*----------------------------------------------header---------------------------------------------*/
+    display: grid;
+    grid-template-columns: 15% 85%;
+    grid-template-rows: 100%;
+    grid-area: 1 / 1 / 2 / 2;
+}
+
+    .logo {
+        display: flex;        
+        justify-content: center;
+        align-items: bottom;
+        grid-area: 1 / 1 / 2 / 2;
+    }
+
+        .imageLogo {
+            width: 150px;
+        }
+
+    .mainTextHeader {
+        display: flex;        
+        justify-content: center;
+        align-items: center;
+        padding-right: 15vw;
+        grid-area: 1 / 2 / 2 / 3;
+    }
+
+    /* --------------------------------------------header off ------------------------------- */
+
+.main { /* ---------------------------------------- main -----------------------------------*/
+    grid-area: 2 / 1 / 3 / 2;
+    display: flex; 
+    flex-direction: column;      
+    justify-content: flex-start;
+    align-items: center;
+}
+
+    .mainTextMain {
+        padding-top: 10vh;
+        padding-bottom: 10vh;
+    }
+
+        .menu ul {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        .menu li {
+            display: flex;
+            padding-bottom: 3vw;
+        }
+
+        .menu a {
+            text-decoration: none;
+            text-align: left;
+            font-family: 'Miriam Libre', sans-serif;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 1.2vw;
+            color: rgb(5, 39, 1);
+            letter-spacing: 1px;
+        }
+
+        .menu a:hover {
+            color: antiquewhite;
+        }
+
+/* -------------------------------------------------- footer ----------------------------------------*/
+        .footer {
+            display: flex;
+            justify-content: center;
+        }
+
+        .footer img {
+            height: 270px;
+            border-radius: 10px;
+            box-shadow: 0 0 8px 8px #0fa36b;
+        }
