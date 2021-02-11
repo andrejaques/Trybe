@@ -1,0 +1,11 @@
+Warrior
+Knight
+Mage
+Rogue
+Shamanist
+Spiritualist
+Druid
+Assassin
+Priest
+Alemanha
+Brasil

@@ -1,0 +1,35 @@
+  103  mv trybe_backup.txt /backup
+  104  ls
+  105  ls backup/
+  106  touch trybe_backup.txt
+  107  mv trybe_backup.txt backup/
+  108  ls backup/
+  109  mv backup/trybe_backup.txt backup2/
+  110  ls
+  111  ls backup2/
+  112  pwd
+  113  rmdir backup
+  114  mv backup2 backup
+  115  ls
+  116  pwd
+  117  ls
+  118  rmdir backup
+  119  rm -r backup
+  120  clear
+  121  cd ..
+  122  ls
+  123  cd Exercicios
+  124  ls
+  125  cd unix_tests
+  126  head skills.txt
+  127  head -5 skills.txt
+  128  tail -4 skills.txt
+  129  rm *.txt
+  130  ls
+  131  history | tail -1
+  132  eccho "30 - 20" | bc
+  133  echo "30 - 20" | bc
+  134  history | tail -n 1
+  135  history | tail -n 10
+  136  history | tail -10
+  137  history | tail -35 > comandos_aula01_ao_vivo.txt
