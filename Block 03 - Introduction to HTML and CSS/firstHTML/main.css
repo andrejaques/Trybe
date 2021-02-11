@@ -27,11 +27,11 @@
         grid-area: 1 / 1 / 2 / 2;
     }
 
-        .imageLogo {
+        .image-logo {
             width: 150px;
         }
 
-    .mainTextHeader {
+    .main-text-header {
         display: flex;        
         justify-content: center;
         align-items: center;
@@ -49,7 +49,7 @@
     align-items: center;
 }
 
-    .mainTextMain {
+    .main-text-main {
         padding-top: 10vh;
         padding-bottom: 10vh;
     }
