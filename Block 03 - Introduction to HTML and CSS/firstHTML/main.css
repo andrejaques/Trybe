@@ -92,3 +92,15 @@
             border-radius: 10px;
             box-shadow: 0 0 8px 8px #0fa36b;
         }
+
+        .footer p {
+            position: fixed;
+            bottom: 1em;
+            right: 1em;
+            font-family: 'Miriam Libre', sans-serif;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 0.8vw;
+            color: black;
+            letter-spacing: 1px;
+        }
