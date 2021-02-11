@@ -24,3 +24,4 @@ The [Trybe](https://www.betrybe.com/) program has more than **1,500 hours** of c
 
 ##### Block 3: Introduction - HTML & CSS
 - [x] 3-1: *HTML & CSS - Page structures*
+- [x] 3-2: *HTML & CSS - Getting Started with CSS*
