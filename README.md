@@ -10,7 +10,7 @@ The [Trybe](https://www.betrybe.com/) program has more than **1,500 hours** of c
  ## Introduction - Web Development :white_check_mark:
 <br>
 
-##### Block 1: Introduction - Unix & Shell
+##### Block 1: Introduction - Unix & Shell (https://github.com/andrejaques/Trybe/tree/main/Block%2001%20-%20Introduction%20to%20Unix%20and%20Shell/unix_tests)
 - [x] 1-1: *Unix & Bash - Part 1*
 - [x] 1-2: *Unix & Bash - Part 2*
 - [x] 1-3: *Shell Script*
