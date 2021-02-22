@@ -1,0 +1,46 @@
+h1 
+{
+    text-align: center;
+}
+
+ul 
+{
+    text-align: center;
+}
+
+section
+{
+    margin: 40px;
+    text-align: center;
+}
+
+.first {
+    display: block;
+    background-color: rgb(235, 200, 84);
+    font-size: 20px;
+    height: 50px;
+    text-align: center;
+    width: 200px;
+    align-content: center;
+    margin: auto;
+}
+
+.second {
+    display: inline-block;
+    background-color: rgb(219, 219, 219);
+    font-size: 20px;
+    height: 50px;
+    text-align: center;
+    width: 300px;
+    margin: auto;
+}
+
+.third {
+    display: inline-block;
+    background-color: rgb(170, 142, 106);
+    font-size: 20px;
+    height: 50px;
+    text-align: center;
+    width: 300px;
+    margin: auto;
+}
