@@ -56,6 +56,15 @@ footer p {
     display: inline;
 }
 
+.image {
+    width: 400px;
+    height: 400px;
+}
+
+.hello-image {
+    border-radius: 45%;
+}
+
 .centralized {
     text-align: center;
     padding: 0 25vw;
