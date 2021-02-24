@@ -28,3 +28,6 @@ The [Trybe](https://www.betrybe.com/) program has more than **1,500 hours** of c
 - [x] 3-3: *HTML & CSS - Selectors and positioning*
 - [x] 3-4: *Semantic HTML*
 - [x] 3-5: *[Project - HTML & CSS](https://github.com/andrejaques/AndreJaques-Website)*
+
+##### Block 4: Introduction - JavaScript
+- [x] 4-1: *JavaScript - Getting Started*
