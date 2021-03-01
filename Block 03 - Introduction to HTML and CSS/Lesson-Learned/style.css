@@ -1,0 +1,143 @@
+body {
+    background-color: rgb(253, 251, 251);
+}
+
+
+h1 , h2 {
+    font-family: Playfair Display, serif;
+}
+
+/* -------------- header ------------- */
+header {
+    position: fixed;
+    top: 0;
+    text-align: center;
+    background-color: green;
+    width: 100%;
+    height: max-content;
+    box-shadow: inset 0 0 1em rgb(10, 255, 1), 0 0 1em rgb(47, 248, 6);
+}
+
+header a {
+    text-decoration: underline;
+    color: black;
+    font-size: 1.1em;
+    font-weight: 600;
+    text-shadow: 0 0 1em rgb(10, 255, 1), 0 0 10px rgb(47, 248, 6);
+}
+
+#titulo {
+    text-shadow: 0 0 5px rgb(10, 255, 1), 0 0 5px rgb(47, 248, 6);
+}
+
+/* -------------- main ------------- */
+main {
+    text-align: center;
+}
+
+.minha-foto {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin: 135px auto 60px;
+}
+
+#minha_foto {
+    width: 400px;
+    height: 300px;
+}
+
+.trybe {
+    font-weight: 800;
+    color: green;
+}
+
+#articles p {
+    display: inline;
+}
+
+#licoes {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+#licoesAp , #licoesAap {
+    display: inline-block;
+    margin: 30px 60px;
+    padding: 15px;
+    border: solid 3px black;
+    text-align: left;
+}
+
+#artigos {
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    margin-bottom: 60px;
+}
+
+.lado-esquerdo , .lado-direito {
+    line-height: 1.7em;
+    margin: 30px 10px;
+    padding: 20px;
+    border: solid 1px black;
+    text-align: left;
+}
+
+.lado-esquerdo {
+    width: 55vw;
+}
+
+.lado-direito {
+    width: 35vw;
+}
+
+.table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.table td , .table th {
+    border: 1px solid rgb(219, 219, 219);
+    padding: 8px;
+}
+
+.table tr:nth-child( even ) {
+    background-color: rgb(240, 240, 240);
+}
+
+.table tr:hover {
+    background-color: rgb(219, 219, 219);
+}
+
+.table th , .table caption {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: rgb(76, 175, 80);
+    color: white;
+}
+
+.table caption {
+    font-weight: 800;
+}
+
+/* -------------- footer ------------- */
+footer {
+    margin-top: 60px;
+    padding-right: 20px;
+    background-color: rgb(219, 219, 219);
+    border: 1px solid black;
+    text-align: end;
+}
+
+footer a {
+    text-decoration: none;
+    font-weight: 700;
+    color: rgb(10, 212, 10);
+}
+
+footer a:hover {
+    font-weight: 800;
+    color: green;
+}
