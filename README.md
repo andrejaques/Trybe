@@ -31,3 +31,6 @@ The [Trybe](https://www.betrybe.com/) program has more than **1,500 hours** of c
 
 ##### Block 4: Introduction - JavaScript
 - [x] 4-1: *JavaScript - Getting Started*
+- [x] 4-2: *JavaScript - For Array and Loop*
+- [x] 4-3: *JavaScript - Programming Logic and Algorithms*
+- [x] 4-4: *JavaScript - Objects and functions*
