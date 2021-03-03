@@ -1,0 +1,14 @@
+.button {
+    border: 3px solid black;
+    border-radius: 10px;
+}
+
+.button:hover {
+    font-size: 1.2em;
+    background-color: rgb(179, 97, 30);
+    font-weight: 800;
+}
+
+#page-title {
+    color: blue;
+}
