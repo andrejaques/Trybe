@@ -29,7 +29,7 @@ terceiroFilho = pai.firstChild.nextElementSibling.nextElementSibling.nextElement
 
 // require 01
 let elementoOndeVoceEstaIrmao = document.createElement('div');
-elementoOndeVoceEstaIrmao.innerText = 'Sou um irmão de onde estou'
+elementoOndeVoceEstaIrmao.id = 'MaisOutroIrmao';
 pai.appendChild(elementoOndeVoceEstaIrmao);
 
 // require 02
@@ -44,4 +44,19 @@ primeiroFilhoDoFilho.appendChild(filhoAnimal);
 
 // require 04
 terceiroFilho = filhoAnimal.parentNode.parentNode.nextElementSibling;
-console.log(terceiroFilho)
+
+/* --------------------------- exec 03 -------------------- */
+
+// require 01 (unique)
+let body = document.querySelector("body");
+let paiDoPai = document.querySelector('#paiDoPai');
+body.removeChild(paiDoPai);
+body.appendChild(pai);
+
+let quartoFilho = document.querySelector('#quartoEUltimoFilho');
+pai.removeChild(elementoOndeVoceEsta);
+pai.removeChild(primeiroFilho);
+pai.removeChild(terceiroFilho);
+pai.removeChild(quartoEUltimoFilho);
+pai.removeChild(atencao);
+pai.removeChild(elementoOndeVoceEstaIrmao);
