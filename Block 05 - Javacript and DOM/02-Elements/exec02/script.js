@@ -49,3 +49,14 @@ img.src = 'https://picsum.photos/200';
 img.className = 'small-image';
 
 leftContent.appendChild(img);
+
+// require 08
+let lista = ["um", "dois", "três", "quatro", "cinco", "seis", "sete", "oito", "nove", "dez"];
+let numberList = document.createElement('ul');
+rightContent.appendChild(numberList)
+for (let index = 0; index < lista.length; index++) {
+    let numero = document.createElement('li');
+    numero.innerHTML = lista[index];
+    numberList.appendChild(numero);
+}
+
