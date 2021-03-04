@@ -60,3 +60,11 @@ for (let index = 0; index < lista.length; index++) {
     numberList.appendChild(numero);
 }
 
+// require 09
+let h3Tag01 = document.createElement('h3');
+let h3Tag02 = document.createElement('h3');
+let h3Tag03 = document.createElement('h3');
+
+mainContent.appendChild(h3Tag01);
+mainContent.appendChild(h3Tag02);
+mainContent.appendChild(h3Tag03);
