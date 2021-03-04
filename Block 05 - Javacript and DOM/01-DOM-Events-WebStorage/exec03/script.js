@@ -15,6 +15,12 @@ function upperText (element) {
     arrayElement[index].style.textTransform = "uppercase";
 }
 
+function consoleLogTag (tag) {
+    let arrayElement = document.querySelectorAll(tag);
+    for (index = 0; index < arrayElement.length; index += 1) 
+    console.log(arrayElement[index]);
+}
+
 // request 01
 changeText("p", "Fazendo entrevista para uma vaga pleno", 1);
 //request 02
@@ -25,3 +31,5 @@ changeColor(".center-content", "white");
 changeText("h1", "Exercício 5.1 - JavaScript (EC6)", 0);
 // request 05
 upperText("p");
+// request 06
+consoleLogTag("p");
