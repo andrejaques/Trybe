@@ -24,3 +24,8 @@ let centerContent = document.createElement('div');
 centerContent.className = 'center-content';
 
 mainContent.appendChild(centerContent);
+
+// require 04
+let pTag = document.createElement('p');
+pTag.innerHTML = "Linux initializing ...<br> Initializing advanced hardware ...<br> Setting up modules ...<br>Initializing network ...";
+centerContent.appendChild(pTag);
