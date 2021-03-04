@@ -19,4 +19,8 @@ mainContent.className = 'main-content';
 
 body.appendChild(mainContent);
 
-//
+// require 03
+let centerContent = document.createElement('div');
+centerContent.className = 'center-content';
+
+mainContent.appendChild(centerContent);
