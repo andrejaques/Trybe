@@ -14,3 +14,9 @@ h1.style.textShadow = "3px 3px 1px black"
 body.appendChild(h1);
 
 // require 02
+let mainContent = document.createElement('div');
+mainContent.className = 'main-content';
+
+body.appendChild(mainContent);
+
+//
