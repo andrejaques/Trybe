@@ -23,4 +23,12 @@ let terceiroFilho = elementoOndeVoceEsta.nextElementSibling;
 
 // require 08
 terceiroFilho = pai.firstChild.nextElementSibling.nextElementSibling.nextElementSibling;
-console.log(terceiroFilho);
+
+/*---------------- EXEC 02 ----------------*/
+
+
+// require 01
+let elementoOndeVoceEstaIrmao = document.createElement('div');
+elementoOndeVoceEstaIrmao.innerText = 'Sou um irmão de onde estou'
+pai.appendChild(elementoOndeVoceEstaIrmao);
+
