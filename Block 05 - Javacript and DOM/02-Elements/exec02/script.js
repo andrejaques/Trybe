@@ -83,3 +83,15 @@ mainContent.removeChild(leftContent);
 // require 13
 rightContent.style.marginRight = "auto";
 
+// require 14
+mainContent.style.background = "green";
+
+// require 15;
+let liList = document.querySelectorAll('li');
+
+for (let index = 0; index < liList.length; index += 1) {
+    nExclude = liList[index];
+    if (index >= 8) {
+        numberList.removeChild(nExclude);
+    }
+}
