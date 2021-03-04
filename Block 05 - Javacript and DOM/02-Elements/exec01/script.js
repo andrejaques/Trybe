@@ -17,4 +17,10 @@ primeiroFilho = elementoOndeVoceEsta.previousElementSibling;
 
 // require 06
 let atencao = elementoOndeVoceEsta.nextSibling;
-console.log(atencao)
+
+// require 07
+let terceiroFilho = elementoOndeVoceEsta.nextElementSibling;
+
+// require 08
+terceiroFilho = pai.firstChild.nextElementSibling.nextElementSibling.nextElementSibling;
+console.log(terceiroFilho);
