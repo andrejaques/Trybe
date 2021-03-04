@@ -32,3 +32,16 @@ let elementoOndeVoceEstaIrmao = document.createElement('div');
 elementoOndeVoceEstaIrmao.innerText = 'Sou um irmão de onde estou'
 pai.appendChild(elementoOndeVoceEstaIrmao);
 
+// require 02
+let filhoBastardo = document.createElement('div');
+filhoBastardo.id = "filhoBastardo"
+elementoOndeVoceEsta.appendChild(filhoBastardo);
+
+// require 03
+let filhoAnimal = document.createElement('div');
+filhoAnimal.id = "filhoAnimal";
+primeiroFilhoDoFilho.appendChild(filhoAnimal);
+
+// require 04
+terceiroFilho = filhoAnimal.parentNode.parentNode.nextElementSibling;
+console.log(terceiroFilho)
