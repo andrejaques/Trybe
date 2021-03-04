@@ -77,3 +77,9 @@ h3Tag01.className = 'description';
 h3Tag02.className = 'description';
 h3Tag03.className = 'description';
 
+// require 12
+mainContent.removeChild(leftContent);
+
+// require 13
+rightContent.style.marginRight = "auto";
+
