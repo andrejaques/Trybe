@@ -28,4 +28,15 @@ mainContent.appendChild(centerContent);
 // require 04
 let pTag = document.createElement('p');
 pTag.innerHTML = "Linux initializing ...<br> Initializing advanced hardware ...<br> Setting up modules ...<br>Initializing network ...";
+
 centerContent.appendChild(pTag);
+
+// require 05
+let leftContent = document.createElement('div');
+leftContent.className = 'left-content';
+mainContent.appendChild(leftContent);
+
+// require 06
+let rightContent = document.createElement('div');
+rightContent.className = 'right-content';
+mainContent.appendChild(rightContent);
