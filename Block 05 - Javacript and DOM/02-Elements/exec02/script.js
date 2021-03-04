@@ -68,3 +68,12 @@ let h3Tag03 = document.createElement('h3');
 mainContent.appendChild(h3Tag01);
 mainContent.appendChild(h3Tag02);
 mainContent.appendChild(h3Tag03);
+
+// require 10
+h1.className = 'title';
+
+// require 11
+h3Tag01.className = 'description';
+h3Tag02.className = 'description';
+h3Tag03.className = 'description';
+
