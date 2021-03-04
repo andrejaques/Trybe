@@ -34,9 +34,18 @@ centerContent.appendChild(pTag);
 // require 05
 let leftContent = document.createElement('div');
 leftContent.className = 'left-content';
+
 mainContent.appendChild(leftContent);
 
 // require 06
 let rightContent = document.createElement('div');
 rightContent.className = 'right-content';
+
 mainContent.appendChild(rightContent);
+
+// require 07
+let img = document.createElement('img');
+img.src = 'https://picsum.photos/200';
+img.className = 'small-image';
+
+leftContent.appendChild(img);
