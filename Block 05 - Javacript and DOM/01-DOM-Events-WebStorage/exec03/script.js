@@ -11,4 +11,4 @@ function changeColor (element, color) {
 
 changeText("p", "Fazendo entrevista para uma vaga pleno", 1);
 changeColor(".main-content", "rgb(76,164,109)");
-
+changeColor(".center-content", "white");
