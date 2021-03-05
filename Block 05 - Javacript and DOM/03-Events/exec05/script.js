@@ -57,7 +57,16 @@ function colorChange () {
     }
 }
 
+function createFridayButton () {
+    let fridayButton = document.createElement('button');
+    let buttonsContainer = document.querySelector('.buttons-container');
+    fridayButton.id = 'btn-friday';
+    fridayButton.innerHTML = 'Sexta-feira';
+    buttonsContainer.appendChild(fridayButton);
+}
+
 createDaysOfTheWeek();
 createDays();
 createFeriadoButton();
 changeColorHollys();
+createFridayButton();
