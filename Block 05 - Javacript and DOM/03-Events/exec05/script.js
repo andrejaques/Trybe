@@ -41,8 +41,23 @@ function createFeriadoButton() {
     buttonsContainer.appendChild(feriadoButton);
 }
 
+function changeColorHollys() {
+    let feriadoButton = document.querySelector('#btn-holiday');
+    feriadoButton.addEventListener('click', colorChange);
+}
 
+function colorChange () {
+    let holidays = document.querySelectorAll('.holiday');
+    for (let i in holidays) {
+        if (holidays[i].style.backgroundColor === "green") {
+            holidays[i].style.backgroundColor = 'rgb(238,238,238)';
+        } else {
+            holidays[i].style.backgroundColor = "green";
+        }
+    }
+}
 
 createDaysOfTheWeek();
 createDays();
 createFeriadoButton();
+changeColorHollys();
