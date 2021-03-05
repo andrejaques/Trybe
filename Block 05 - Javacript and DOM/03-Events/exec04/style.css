@@ -1,0 +1,48 @@
+.flexy {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 20px;
+}
+
+.flexy-s {
+    width: 24%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flexy-gs {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.caixa-texto {
+    width: 100%;
+    margin-left: 5px;
+    border: 2px dashed black;
+}
+
+.fonte {
+    font-size: 32px;
+    font-weight: 700;
+}
+.como-usar {
+    border: 1px solid black;
+    width: 74%;
+}
+.caixa1,
+.caixa2 {
+    border: 2px solid black;
+    width: 80px;
+    height: 80px;
+    margin: 10px auto;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.botao1,
+.botao2 {
+    margin: 0 auto;
+}

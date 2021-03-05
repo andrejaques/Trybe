@@ -1,0 +1,44 @@
+.flexy {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 20px;
+}
+
+.flexy-s {
+    width: 24%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.caixa-texto {
+    width: 100%;
+    margin-left: 5px;
+    border: 2px dashed black;
+}
+
+.fonte {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.como-usar {
+    border: 1px solid black;
+    width: 74%;
+}
+
+.caixa1, .caixa2 {
+    border: 2px solid black;
+    width: 100px;
+    height: 100px;
+    margin: 10px auto;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.caixa1:hover,
+.caixa2:hover {
+    border: solid 1px lightgray;
+}
