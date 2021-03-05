@@ -19,10 +19,25 @@ function createDays() {
         const days = dezDaysList[index];
         const dayListItem = document.createElement('li');
         dayListItem.innerHTML = days;
+        dayListItem.className = 'day';
+
+        if (days === 24 || days === 25 || days === 31) {
+            dayListItem.className += ' ' + 'holiday';
+        }
         
+        if (days === 4 || days === 11 || days === 18 || days === 25) {
+            dayListItem.className += ' ' + 'friday';
+        }
+
         weekDaysList.appendChild(dayListItem);
     };
 };
+
+function createFeriadoButton(feriados) {
+
+}
+
+
 
 createDaysOfTheWeek();
 createDays();
