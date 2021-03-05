@@ -33,11 +33,16 @@ function createDays() {
     };
 };
 
-function createFeriadoButton(feriados) {
-
+function createFeriadoButton() {
+    let feriadoButton = document.createElement('button');
+    let buttonsContainer = document.querySelector('.buttons-container');
+    feriadoButton.id = 'btn-holiday';
+    feriadoButton.innerHTML = 'Feriados';
+    buttonsContainer.appendChild(feriadoButton);
 }
 
 
 
 createDaysOfTheWeek();
 createDays();
+createFeriadoButton();
