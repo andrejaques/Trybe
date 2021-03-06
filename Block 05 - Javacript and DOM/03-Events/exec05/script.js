@@ -65,8 +65,25 @@ function createFridayButton () {
     buttonsContainer.appendChild(fridayButton);
 }
 
+function changeFriday() {
+    let sextaButton = document.querySelector('#btn-friday');
+    sextaButton.addEventListener('click', textChange);
+}
+
+function textChange () {
+    let fridays = document.querySelectorAll('.friday');
+    for (let i in fridays) {
+        if (fridays[i].innerHTML !== "Sextou") {
+            fridays[i].innerHTML = "Sextou!!";
+        } else {
+            location.reload();
+        }
+    }
+}
+
 createDaysOfTheWeek();
 createDays();
 createFeriadoButton();
 changeColorHollys();
 createFridayButton();
+changeFriday();
