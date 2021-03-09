@@ -38,3 +38,26 @@ h2 {
 main {
     text-align: center;
 }
+
+#main-top-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+#azkabanImg {
+    width: 35vw;
+    height: 35vw;
+}
+
+.live-text {
+    width: 30vw;
+    height: 30vw;
+    padding: 0;
+    margin: 3px;
+    text-align: justify;
+}
+
+.letter-image {
+    width: 50%;
+    height: 50%;
+}
