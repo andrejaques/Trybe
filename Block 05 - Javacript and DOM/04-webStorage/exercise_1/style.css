@@ -4,7 +4,8 @@ html {
 
 body {
     box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Tangerine', cursive;
+    font-size: 2.4vw;
     background-color: rgb(236, 218, 195);
     border: inset 10px rgb(177, 121, 52);
 }
@@ -60,4 +61,18 @@ main {
 .letter-image {
     width: 50%;
     height: 50%;
+}
+
+#main-bottom-container {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.live-text2 {
+    width: 45vw;
+    height: 45vw;
+    padding: 0;
+    margin: 3px;
+    text-align: justify;
 }
