@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Talk Form</title>
+    </head>
+    <body>
+        <header class='speaker-form-header'>
+            <h1>Speaker Submission</h1>
+            <p><em>Want to speak at our fake conference? Fill out this</em></p>
+        </header>
+        <form action="" method="get" class='speaker-form'>
+            <div class="form-row">
+                <div class="line-content">
+                    <label for="full-name">Name</label><br>
+                    <input type="text" name="name" id="full-name">
+                </div>
+
+                <div class="line-content">
+                    <fieldset class="legacy-form-row">
+                        <legend>type of talk</legend>
+
+                        <input type="radio" name="talk-type" id="talk-type-1" value="main-stage">
+                        <label for="talk-type-1">Main Stage</label>
+
+                        <input type="radio" name="talk-type" id="talk-type-2" value="workshop">
+                        <label for="talk-type-2">Workshop</label>
+                    </fieldset>
+                </div>
+
+                <div class="line-content">
+                    <label for="t-shirt-size">T-Shirt Size</label>
+                    <select name="t-shirt" id="t-shirt-size">
+                        <option value="xs">Extra Small</option>
+                        <option value="s">Small</option>
+                        <option value="m">Medium</option>
+                        <option value="l">Large</option>
+                        <option value="xl">Extra Large</option>
+                    </select>
+                </div>
+
+                <div class="line-content">
+                    <label for="abstract-1">Abstract</label>
+                    <textarea name="abstract" id="abstract-1" cols="30" rows="10" placeholder="Describe your comment in 500 characters" maxlength="500"></textarea>
+                </div>
+
+                <div class="line-content">
+                    <label for="available-1"></label>
+                    <input type="checkbox" name="available" id="available-1"> I am available for this concern.
+                </div>
+
+                <div class="line-content">
+                    <button type="submit">Submit</button>
+                </div>
+
+            </div>
+        </form>
+    </body>
+</html>
