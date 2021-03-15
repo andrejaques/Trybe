@@ -1,0 +1,78 @@
+html {
+    cursor: url('images/mouse.png'), auto;
+}
+
+body {
+    box-sizing: border-box;
+    font-family: 'Tangerine', cursive;
+    font-size: 2.4vw;
+    background-color: rgb(236, 218, 195);
+    border: inset 10px rgb(177, 121, 52);
+}
+
+/* --------------------------- header --------------------- */
+h1 {
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 4.5vw;
+    word-spacing: 33px;
+    margin-bottom: 3px;
+}
+
+h2 {
+    font-family: 'Sancreek', cursive;
+}
+
+#menu ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+#main-title {
+    font-size: 2.5vw;
+    text-align: center;
+    text-decoration: overline underline;
+    margin: 0px;
+    padding-bottom: 0;
+}
+
+/* --------------------------- main --------------------- */
+main {
+    text-align: center;
+}
+
+#main-top-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+#azkabanImg {
+    width: 35vw;
+    height: 35vw;
+}
+
+.live-text {
+    width: 30vw;
+    height: 30vw;
+    padding: 0;
+    margin: 3px;
+    text-align: justify;
+}
+
+.letter-image {
+    width: 50%;
+    height: 50%;
+}
+
+#main-bottom-container {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.live-text2 {
+    width: 45vw;
+    height: 45vw;
+    padding: 0;
+    margin: 3px;
+    text-align: justify;
+}
