@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+
+    <title>Curriculum Vitae</title>
+</head>
+<body>
+    <header>
+        <h1>Formulário de Currículo</h1>
+    </header>
+
+    <main>
+        <form action="" method="get">
+            <fieldset>
+                <legend>Dados Pessoais</legend>
+                <label for="nome-input">Nome: </label>
+                <input type="text" id="nome-input" value="nome" maxlength="11" required>
+
+                <label for="endereco-input">Endereço</label>
+                <input type="text" id="endereco-input" maxlength="200" required>
+
+                <label for="cidade-input">Cidade</label>
+                <input type="text" id="cidade-input" maxlength="28" required>
+
+                <label for="estados-input">Estado</label>
+                <select name="estados" id="estados-input" required>
+                </select>
+                
+                <input type="radio" id="radio-button-1" name="radio-button" required>
+                <label for="radio-button-1">Casa</label>
+                <input type="radio" name="radio-button" value="Apartamento" id="radio-button-2">
+                <label for="radio-button-2">Apartamento</label>
+            </fieldset>
+        </form>
+    </main>
+</body>
+</html>
