@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Imports and links -->
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+
+    <title>Document</title>
+  </head>
+  <body>
+
+    <!-- ------------- header ------------- -->
+    <header class="top-bar">
+      <section id="logo-container">
+        <img class="facebook-logo" src="imgs/facebook-logo.png" alt="Logomarca do Facebook"/>
+      </section>
+
+      <section id="login-container">
+        <form action="" method="get" class="facebook-login">
+          <div class="form-group">
+            <label for="user-email-phone" id="user-email-phone-label" class="text-white">Email ou telefone</label>
+            <input type="text" id="user-email-phone" required />
+          </div>
+
+          <div class="form-group">
+            <label for="user-password" id="user-password-label" class="text-white">Senha</label>
+            <input type="text" id="user-password" />
+          </div>
+
+          <div class="form-control">
+            <button id="button-login" class="text-white">Entrar</button>
+          </div>
+        </form>
+      </section>
+    </header>
+
+    <!-- ------------- main ------------- -->
+    <main class="main-content">
+      <section class="left-content">
+        <p id="facebook-slogan">
+          O Facebook ajuda você a se conectar e compartilhar com as pessoas que
+          fazem parte da sua vida.
+        </p>
+        <img id="facebook-networking" src="imgs/networking.png" alt="" />
+      </section>
+
+      <section class="right-content">
+        <h1>Abra uma conta</h1>
+        <br />
+        <h3 class="quick-easy">É rápido e fácil.</h3>
+        <br />
+        <form method="get" id="form">
+          <div id="fullname-container">
+            <input type="text" class="is-filled" name="firstname" placeholder="Nome" size="10" />
+            <input type="text" class="is-filled" name="lastname" placeholder="Sobrenome" size="20" />
+          </div>
+
+          <div>
+            <input type="text" class="is-filled" name="phone_email" placeholder="Celular ou email" size="20" />
+          </div>
+
+          <div id="password-container">
+            <input type="password" class="is-filled" name="password" id="" placeholder="Nova senha" />
+          </div>
+
+          <div id="birthdate-container">
+            <label for="input-birthdate" id="label-birthdate">Data de nascimento</label>
+            <input type="text" class="is-filled" name="birthdate" id="input-bithdate" placeholder="dd/mm/aaaa" >
+          </div>
+
+          <label for="" id="label-gender">Gênero</label>
+          <div id="gender-container" class="outra-classe">
+            <input type="radio" name="gender" value="Feminino" id="Feminino" checked onclick="createCustomGender()" >Feminino
+            <input type="radio" name="gender" value="Masculino" id="Masculino" onclick="createCustomGender()" >Masculino
+            <input type="radio" name="gender" value="Personalizado" id="Personalizado" onclick="createCustomGender()" >Personalizado
+            <input type="hidden" name="gender-custom" value="Personalizado" class="is-filled" id="custom-gender" placeholder="Gênero (opcional)" >
+          </div>
+
+          <div id="submit-container">
+            <button id="facebook-register" type="submit">Cadastre-se</button>
+          </div>
+
+        </form>
+      </section>
+    </main>
+
+    <!-- ------------- footer ------------- -->
+    <footer>
+      <img src="imgs/footer.png" alt="imagem do footer">
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,114 @@
+/* -----------------------header----------------------- */
+header {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(40, 133, 40);
+}
+
+h1 {
+    text-align: center;
+}
+
+/* -----------------------main------------------------- */
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+span {
+    margin: 15px;
+}
+
+#input-container {
+    text-align: center;
+    margin: 20px;
+}
+
+#carta-texto {
+    text-align: center;
+    max-width: 90%;
+    width: 90%;
+}
+
+#buttons-container {
+    text-align: center;
+    margin: 20px;
+}
+
+#carta-container {
+    margin: 30px;
+    border: solid 1px gray;
+}
+
+#carta-gerada {
+    display: flex;
+    justify-content: start;
+}
+
+.newspaper {
+    background-color: antiquewhite;
+    font-family: Times New Roman, Times, serif;
+    font-weight: 700;
+}
+
+.magazine1 {
+    background-color: teal;
+    color: white;
+    font-family: Verdana, serif;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.magazine2 {
+    background-image: url('images/pink-pattern.png');
+    color: fuchsia;
+    font-family: Verdana, serif;
+    font-weight: 900;
+}
+
+.medium {
+    font-size: 20px;
+    padding: 8px;
+}
+
+.big {
+    font-size: 30px;
+    padding: 10px;
+}
+
+.reallybig {
+    font-size: 40px;
+    padding: 15px;
+}
+
+.rotateleft {
+    transform: rotate(-5deg);
+}
+
+.rotateright {
+    transform: rotate(5deg);
+}
+
+.skewright {
+    transform: skewX(-10deg);
+}
+
+.skewleft {
+    transform: skewX(10deg);
+}
+
+#contador-container {
+    align-self: center;
+    text-align: center;
+    margin: 20px;
+    width: 15%;
+    border: solid 1px red;
+}
+
+#carta-contador {
+    text-align: center;
+    font-size: 1.3em;
+}
+
+/* -----------------------footer----------------------- */

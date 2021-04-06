@@ -1,0 +1,63 @@
+/* -----------------------header----------------------- */
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.rainbow-text {
+    text-align: center;
+    font-size: 4vw;
+    width: 35vw;
+
+    /* rainbow color in text */
+    background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+/* -----------------------main------------------------- */
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#rgb-container {
+    width: 100%;
+    font-size: 1.5vw;
+    margin: 30px 0;
+}
+
+#rgb-color {
+    text-align: center;
+}
+
+#colors-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.ball {
+    background: rgb(39, 199, 124);
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin: 15px;
+}
+
+#answer-container {
+    margin-top: 30px;
+}
+
+#answer {
+    padding: 10px;
+    font-size: 1.3em;
+    background-color: rgb(235, 235, 235);
+    border: solid 1px gray;
+    border-radius: 15%;
+    box-shadow: 5px 5px 15px 5px #ff8080, -9px 5px 15px 5px #ffe488, -7px -5px 15px 5px #8cff85, 12px -5px 15px 5px #80c7ff, 12px 10px 15px 7px #e488ff, -10px 10px 15px 7px #ff616b, -10px -7px 27px 1px #8e5cff, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+}
+
+/* -----------------------footer----------------------- */

@@ -32,9 +32,37 @@ The [Trybe](https://www.betrybe.com/) program has more than **1,500 hours** of c
 - [x] 4-2: *JavaScript - For Array and Loop*
 - [x] 4-3: *JavaScript - Programming Logic and Algorithms*
 - [x] 4-4: *JavaScript - Objects and functions*
-- [x] 4-5: *JavaScript - DOM and selectors*
-- [x] 4-6: *JavaScript - Working with elements*
-- [x] 4-7: *JavaScript - Events*
-- [x] 4-8: *JavaScript - Web Storage*
+- [x] 4-5: *Project - Playground Functions*
 
-##### Block 5: Introduction - JavaScript - Projects
+
+##### Block 5: Introduction - JavaScript and DOM
+- [x] 5-1: *JavaScript - DOM and selectors*
+- [x] 5-2: *JavaScript - Working with elements*
+- [x] 5-3: *JavaScript - Events*
+- [x] 5-4: *JavaScript - Web Storage*
+- [x] 5-5: *Project - Meme Generator*
+- [x] 5-6: *Project - Pixels Art*
+- [x] 5-7: *Project - To Do List*
+- [x] 5-8: *Project - Game Color Guess*
+- [x] 5-9: *Project - Mistery Letter*
+
+## Front-end development :white_check_mark:
+##### Block 6: Introduction - Front-end
+- [x] 6-1: *HTML & CSS - Forms*
+- [x] 6-2: *JavaScript libraries and CSS frameworks*
+- [x] 6-3: *CSS Flexbox - Part 1*
+- [x] 6-4: *CSS Flexbox - Part 2*
+- [x] 6-5: *CSS Responsivo - Mobile first*
+- [x] 6-6: *Project - Facebook signup page*
+
+##### Block 7: Javascript ES6
+- [x] 7-1: *Let, const, arrow functions & template literals*
+- [x] 7-2: *Objects*
+- [x] 7-3: *Unit tests*
+- [x] 7-4: *Testing baby steps (TDD)*
+- [x] 7-5: *Project - Unit tests*
+
+##### Block 8: Javascript Higher Order Functions (HOFs)
+- [x] 8-1: *forEach, find, filter, some, every, sort*
+- [x] 8-2: *map, reduce*
+- [x] 8-3: *ES6 features: spread, rest, destructuring, abbreviation object literal and default parameters*

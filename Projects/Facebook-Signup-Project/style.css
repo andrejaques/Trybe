@@ -1,0 +1,123 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: pink;
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+}
+
+/* ------------------------ header ---------------------- */
+.top-bar { /* header */
+  display: flex;
+  background-color: rgb(66, 103, 178);
+  height: 10%;
+  width: 100%;
+  justify-content: space-between;
+}
+
+/* facebook logo container */
+#logo-container {
+  height: 76px;
+}
+
+.facebook-logo {
+  height: 100%;
+}
+
+/* facebook login container */
+#login-container {
+  display: flex;
+  align-items: center;
+  height: 76px;
+}
+
+.facebook-login {
+  display: flex;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  padding-left: 15px;
+  font-weight: 800;
+}
+
+.form-group input {
+  margin-top: 5px;
+  width: 150px;
+  height: 30px;
+}
+
+.form-control {
+  display: flex;
+  align-self: flex-end;
+  padding: 0 15px;
+}
+
+#button-login {
+  background-color: rgb(69, 110, 194);
+  border: solid 1px rgb(28, 62, 136);
+  font-size: 1em;
+  font-weight: 800;
+  margin: 0 5px;
+  padding: 5px;
+}
+
+.text-white {
+  color: white;
+}
+
+/* ------------------------ main ---------------------- */
+.main-content {
+  display: flex;
+  background: red;
+  height: 80%;
+  width: 100%;
+  justify-content: center;
+}
+
+/* left container */
+.left-content {
+  width: 800px;
+  background: cyan;
+
+}
+
+#facebook-slogan {
+  width: 100%;
+  height: 15%;
+  text-align: center;
+  background-color: green;
+}
+
+/* right container */
+.right-content {
+  background-color: blueviolet;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+#label-gender {
+  display: block;
+}
+
+/* ------------------------ footer ---------------------- */
+footer {
+  background-color: white;
+  width: 100%;
+  padding: 0 10%;
+  height: 10%;
+}
+
+footer img {
+  width: 100%;
+  height: 100%;
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--------- Links --------> 
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+
+    <title>Meme Generator</title>
+</head>
+<body>
+<!-----------------------header----------------------->
+    <header>
+        <h1 id="title">Meme Generator</h1>
+    </header>
+<!-----------------------main------------------------->
+<main id="main-container">
+    
+    <section id="input-container">
+        <div id="text-container">
+            <label for="text-input">Texto:</label>
+            <input type="text" id="text-input" maxlength="60" />
+        </div>
+        <div id="upload-container">
+            <label for="meme-insert">Imagem:</label>
+            <input type="file" id="meme-insert" />
+        </div>
+    </section>
+
+    <section id="meme-image-container">
+        <div id="meme-image" class="meme-image">
+            <img src="" alt="meme image">
+        </div>
+        <div id="text-image-container">
+            <p id="meme-text">Test Meme Phrase</p>
+        </div>
+    </section>
+
+</main>
+<!-----------------------footer----------------------->
+<footer></footer>
+</body>
+</html>
