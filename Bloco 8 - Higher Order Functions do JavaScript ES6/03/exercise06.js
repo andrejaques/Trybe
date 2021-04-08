@@ -1,3 +1,5 @@
+// Crie um array com o nome de todos os livros com mais de 60 anos de publicação.
+
 const assert = require('assert');
 
 const books = [
@@ -76,3 +78,5 @@ function oldBooks() {
 }
 
 assert.deepStrictEqual(oldBooks(), expectedResult);
+
+console.log(oldBooks());

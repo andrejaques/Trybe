@@ -1,4 +1,4 @@
-// Crie um array com strings no formato NOME_DO_LIVRO - GÊNERO_DO_LIVRO - NOME_DA_PESSOA_AUTORA
+// Encontre o livro com o maior nome.
 
 const assert = require('assert');
 
@@ -36,7 +36,6 @@ const books = [
   {
     id: 4,
     name: 'Duna',
-    genre: 'Ficção Científica',
     author: {
       name: 'Frank Herbert',
       birthYear: 1920,
@@ -65,21 +64,23 @@ const books = [
   },
 ];
 
-const expectedResult = [
-  'As Crônicas de Gelo e Fogo - Fantasia - George R. R. Martin',
-  'O Senhor dos Anéis - Fantasia - J. R. R. Tolkien',
-  'Fundação - Ficção Científica - Isaac Asimov',
-  'Duna - Ficção Científica - Frank Herbert',
-  'A Coisa - Terror - Stephen King',
-  'O Chamado de Cthulhu - Terror - H. P. Lovecraft',
-];
+const expectedResult = {
+  author: {
+    birthYear: 1948,
+    name: 'George R. R. Martin',
+  },
+  genre: 'Fantasia',
+  id: 1,
+  name: 'As Crônicas de Gelo e Fogo',
+  releaseYear: 1991,
+};
 
-function formatedBookNames() {
-  return books.map((book) => {
-    return `${book.name} - ${book.genre} - ${book.author.name}`;
-  });
+function longestNamedBook() {
+  const getBigger = (bigger, bookName) => ((bigger.name.length > bookName.name.length) ? bigger : bookName);
+
+  return books.reduce(getBigger);
 }
 
-assert.deepStrictEqual(formatedBookNames(), expectedResult);
+assert.deepStrictEqual(longestNamedBook(), expectedResult);
 
-console.log(formatedBookNames());
+console.log(longestNamedBook());

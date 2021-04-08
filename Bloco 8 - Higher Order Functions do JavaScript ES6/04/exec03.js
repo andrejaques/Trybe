@@ -1,4 +1,4 @@
-// Crie um array com strings no formato NOME_DO_LIVRO - GÊNERO_DO_LIVRO - NOME_DA_PESSOA_AUTORA
+// Calcule a média de idade que as pessoas autoras tinham quando seus respectivos livros foram lançados.
 
 const assert = require('assert');
 
@@ -65,21 +65,15 @@ const books = [
   },
 ];
 
-const expectedResult = [
-  'As Crônicas de Gelo e Fogo - Fantasia - George R. R. Martin',
-  'O Senhor dos Anéis - Fantasia - J. R. R. Tolkien',
-  'Fundação - Ficção Científica - Isaac Asimov',
-  'Duna - Ficção Científica - Frank Herbert',
-  'A Coisa - Terror - Stephen King',
-  'O Chamado de Cthulhu - Terror - H. P. Lovecraft',
-];
+const expectedResult = 43;
 
-function formatedBookNames() {
-  return books.map((book) => {
-    return `${book.name} - ${book.genre} - ${book.author.name}`;
-  });
+function averageAge() {
+  const totalAge = books
+    .map(book => book = book.releaseYear - book.author.birthYear)
+    .reduce((acc, crr) => acc + crr);
+  return totalAge / books.length;
 }
 
-assert.deepStrictEqual(formatedBookNames(), expectedResult);
+assert.strictEqual(averageAge(), expectedResult);
 
-console.log(formatedBookNames());
+console.log(averageAge());
