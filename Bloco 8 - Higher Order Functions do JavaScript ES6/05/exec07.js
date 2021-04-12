@@ -22,8 +22,8 @@ const ships = [
 ];
 
 function shipLength(ship) {
-  const { name: attA, length: attB, measurementUnit: attC } = ship;
-  return `${attA} is ${attB} ${attC} long`;
+    const { name: attA, length: attB, measurementUnit: attC } = ship;
+    return `${attA} is ${attB} ${attC} long`;
 };
 
 assert.strictEqual(shipLength(ships[0]), 'Titanic is 269.1 meters long');
@@ -33,3 +33,15 @@ assert.strictEqual(shipLength(ships[2]), 'Yamato is 256 meters long');
 console.log(shipLength(ships[0]));
 console.log(shipLength(ships[1]));
 console.log(shipLength(ships[2]));
+
+console.log();
+console.log('Or');
+console.log();
+
+function shipLength2({ name, length, measurementUnit }) {
+    return `${name} is ${length} ${measurementUnit} long`;
+};
+
+console.log(shipLength2(ships[0]));
+console.log(shipLength2(ships[1]));
+console.log(shipLength2(ships[2]));
