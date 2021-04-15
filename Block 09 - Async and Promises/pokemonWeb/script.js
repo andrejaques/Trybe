@@ -10,13 +10,41 @@ const appendPokemon = (pokemon) => {
   ul.appendChild(li);
 };
 
-const fetchPokemon = (pokemon) => {
+/* const fetchPokemon = (pokemon) => {
   fetch(`https://pokeapi.co/api/v2/pokemon/${pokemon}`)
     .then((response) => {
       response.json().then((data) => {
         appendPokemon(data)
       })
     })
+}; */
+
+const getPokemonPromise = (pokemonName) => {
+  return new Promise((resolve, reject) => {
+    if (pokemonName == 'rattat') {
+      reject('Esse pokemon é muito top para essa lista!')
+    } else {
+      fetch(`https://pokeapi.co/api/v2/pokemon/${pokemonName}`)
+      .then((response) => {
+        response.json().then((data) => {
+          appendPokemon(data);
+          resolve();
+        });
+      });
+    }
+  });
+};
+
+
+const fetchPokemon = async () => {
+  try {
+    await getPokemonPromise('pikachu');
+    await getPokemonPromise('bulbasaur');
+    await getPokemonPromise('rattata');
+    await getPokemonPromise('charizard');
+  } catch (error) {
+    console.log(error);
+  };
 };
 
 window.onload = () => {
