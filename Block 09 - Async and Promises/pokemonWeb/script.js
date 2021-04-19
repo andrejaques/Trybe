@@ -36,19 +36,22 @@ const getPokemonPromise = (pokemonName) => {
 };
 
 
-const fetchPokemon = async () => {
+const fetchPokemon = async (pokemonName) => {
   try {
-    await getPokemonPromise('pikachu');
-    await getPokemonPromise('bulbasaur');
-    await getPokemonPromise('rattata');
-    await getPokemonPromise('charizard');
+    await getPokemonPromise(pokemonName);
   } catch (error) {
     console.log(error);
   };
 };
 
-window.onload = () => {
-  fetchPokemon('charmander')
-  fetchPokemon('squirtle');
-  fetchPokemon('bulbasaur');
+window.onload = async () => {
+  await fetchPokemon('charmander')
+  await fetchPokemon('squirtle');
+  await fetchPokemon('bulbasaur');
+  await fetchPokemon('cyndaquil');
+  await fetchPokemon('totodile');
+  await fetchPokemon('chikorita');
+  await fetchPokemon('torchic');
+  await fetchPokemon('mudkip');
+  await fetchPokemon('treecko');
 };
