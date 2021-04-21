@@ -66,3 +66,13 @@ The [Trybe](https://www.betrybe.com/) program has more than **1,500 hours** of c
 - [x] 8-1: *forEach, find, filter, some, every, sort*
 - [x] 8-2: *map, reduce*
 - [x] 8-3: *ES6 features: spread, rest, destructuring, abbreviation object literal and default parameters*
+- [x] 8-4: *Project - Zoo Functions*
+
+##### Block 9: Jest, Javascript asynchronous, callbacks and promises
+- [x] 9-1: *Javascript asynchronous and callbacks*
+- [x] 9-2: *Javascript Promises*
+- [x] 9-3: *Project - Shopping Cart*
+
+##### Block 10: Testing asynchronous code with Jest
+- [x] 10-1: *First steps using Jest*
+- [x] 10-2: *Testing asynchronous code*
