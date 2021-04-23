@@ -1,0 +1,222 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* ------- header ------- */
+
+#header {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  height: 90px;
+  width: 100%;
+  background: linear-gradient(to left,#e7e7e9, #cae4e6);
+  border-bottom: 3px solid blue;
+}
+
+#header img {
+  max-width: auto;
+  max-height: auto;
+  border-radius: 50%;
+}
+
+#titles {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#titles {
+  margin: 0;
+  padding: 0;
+}
+
+#titles h1 {
+  padding: 0;
+  font-size: 3vw;
+  font-weight: 600;
+  font-family: "Archivo Black", sans-serif;
+  text-align: center;
+  margin: 10px auto -0.25em auto;
+  display: block;
+}
+
+#titles h2 {
+  font-size: 1em;
+  font-weight: 400;
+  text-align: center;
+  color: black;
+  margin: 5px, auto, 0, auto;
+}
+
+.gradient-text {
+  background-color: #CA4246;
+  background-image: linear-gradient(
+        45deg,
+        #CA4246 16.666%, 
+        #E16541 16.666%, 
+        #E16541 33.333%, 
+        #F18F43 33.333%, 
+        #F18F43 50%, 
+        #8B9862 50%, 
+        #8B9862 66.666%, 
+        #476098 66.666%, 
+        #476098 83.333%, 
+        #A7489B 83.333%);
+  background-size: 100%;
+  background-repeat: repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: rainbow-text-animation-rev 0.75s ease forwards;
+}
+
+.gradient-text:hover{
+  animation: rainbow-text-animation 0.5s ease-in forwards;
+}
+
+/* Move the background and make it smaller. */
+@keyframes rainbow-text-animation-rev {
+    0% {
+        background-size: 650%;
+    }
+    40% {
+        background-size: 650%;
+    }
+    100% {
+        background-size: 100%;
+    }
+}
+
+/* Move the background and make it larger. */
+@keyframes rainbow-text-animation {
+    0% {
+        background-size: 100%;
+    }
+    80% {
+        background-size: 650%;
+    }
+    100% {
+        background-size: 650%;
+    }
+}
+
+/* ------- main ------- */
+main {
+  display: block;
+  background-color:rgb(88, 133, 192);
+}
+
+/* ----- pre-fixed attributes ----- */
+.top-bar {
+  align-items: center;
+  display: flex;
+  height: 100px;
+  justify-content: space-around;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.input-name-group {
+  align-items: flex-start;
+  display: flex;
+}
+
+.input-terms-group {
+  align-items: flex-start;
+  display: flex;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+/* ---- search items list ---- */
+
+.items {
+  display: flex;
+  flex-basis: 70%;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.item {
+  border: 2px solid blue;
+  border-radius: 5px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  margin: 5px;
+  width: 200px;
+}
+
+.item__sku,
+.item__price {
+  display: none;
+}
+
+.item__title,
+.item__preco {
+  flex-grow: 1;
+  padding: 10px;
+  text-align: center;
+}
+
+.item__image {
+  width: 100%;
+}
+
+.item__add {
+  background-color: green;
+  border: 0;
+  cursor: pointer;
+  margin: 0;
+  padding: 5px;
+}
+
+/* ----- cart and itens in cart ----- */
+
+.cart {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 30%;
+  align-items: center;
+}
+
+.cart__title {
+  flex-basis: 1;
+  font-size: 16pt;
+  text-align: center;
+}
+
+.cart__items {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 5px;
+  border: 1px solid black;
+}
+
+.cart__items section {
+  font-size: 2vw;
+  margin: 5px;
+}
+
+.cartItem__sku,
+.cartItem__price {
+  display: none;
+}
+
+.cartItem__title,
+.carItem__preco {
+  display: block;
+}
+
+.total-price-spanContainer {
+  color: rgb(255, 153, 0);
+  border: 1px solid black;
+}
