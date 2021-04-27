@@ -5,9 +5,9 @@
 
 The [Trybe](https://www.betrybe.com/) program has more than **1,500 hours** of classroom and online classes and covers front-end, back-end, computer science, software engineering, agile methodologies, and soft skills.
 
-<br>
- ## Introduction - Web Development :white_check_mark:
-<br>
+
+## Introduction - Web Development :white_check_mark:
+
 
 ##### Block 1: Introduction - Unix & Shell 
 - [x] 1-1: *Unix & Bash - Part 1*
@@ -45,7 +45,7 @@ The [Trybe](https://www.betrybe.com/) program has more than **1,500 hours** of c
 - [x] 5-8: *Project - Game Color Guess*
 - [x] 5-9: *Project - Mistery Letter*
 
-## Front-end development :white_check_mark:
+
 ##### Block 6: Introduction - Front-end
 - [x] 6-1: *HTML & CSS - Forms*
 - [x] 6-2: *JavaScript libraries and CSS frameworks*
@@ -77,9 +77,9 @@ The [Trybe](https://www.betrybe.com/) program has more than **1,500 hours** of c
 - [x] 10-2: *Testing asynchronous code*
 - [x] 10-3: *Project - asynchronous jest and mocking*
 
-<br>
+
 ## Front-end development :white_check_mark:
-<br>
+
 
 ##### Block 11: React
 - [x] 11-1: *Introduction to React*
