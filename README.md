@@ -4,9 +4,8 @@
 <br>
 
 The [Trybe](https://www.betrybe.com/) program has more than **1,500 hours** of classroom and online classes and covers front-end, back-end, computer science, software engineering, agile methodologies, and soft skills.
- 
+
 <br>
- 
  ## Introduction - Web Development :white_check_mark:
 <br>
 
@@ -76,3 +75,12 @@ The [Trybe](https://www.betrybe.com/) program has more than **1,500 hours** of c
 ##### Block 10: Testing asynchronous code with Jest
 - [x] 10-1: *First steps using Jest*
 - [x] 10-2: *Testing asynchronous code*
+- [x] 10-3: *Project - asynchronous jest and mocking*
+
+<br>
+## Front-end development :white_check_mark:
+<br>
+
+##### Block 11: React
+- [x] 11-1: *Introduction to React*
+- [x] 11-2: *Components and props*
