@@ -81,16 +81,16 @@ The [Trybe](https://www.betrybe.com/) program has more than **1,500 hours** of c
 ## Front-end development :white_check_mark:
 
 
-##### Block 11: React
+##### Block 11: React - Introduction
 - [x] 11-1: *Introduction to React*
 - [x] 11-2: *Components and props*
 - [x] 11-3: *Project - Movie Cards Library*
 
-##### Block 12: React
+##### Block 12: React - States, Events and Forms
 - [x] 12-1: *Components with status*
 - [x] 12-2: *React events and forms*
 - [x] 12-3: *Project - Movie Cards Library Stateful*
 
-##### Block 13: React
+##### Block 13: React - Lifecycle and Router
 - [x] 13-1: *Improving component reuse: props.children and PropTypes*
 - [x] 13-2: *React component life cycle*
