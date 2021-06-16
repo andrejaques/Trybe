@@ -94,3 +94,7 @@ The [Trybe](https://www.betrybe.com/) program has more than **1,500 hours** of c
 ##### Block 13: React - Lifecycle and Router
 - [x] 13-1: *Improving component reuse: props.children and PropTypes*
 - [x] 13-2: *React component life cycle*
+
+##### Block 14: Agile Methodologies
+- [x] 14-1: *Agile Methodologies: Scrum, Kanban*
+- [x] 14-2: *Group Project - Frontend Online Store*
