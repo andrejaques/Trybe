@@ -98,3 +98,29 @@ The [Trybe](https://www.betrybe.com/) program has more than **1,500 hours** of c
 ##### Block 14: Agile Methodologies
 - [x] 14-1: *Agile Methodologies: Scrum, Kanban*
 - [x] 14-2: *Group Project - Frontend Online Store*
+
+##### Block 15: Automatic Test with React Testing Library
+- [x] 15-1: *First Steps*
+- [x] 15-2: *Mocks and Inputs*
+- [x] 15-3: *Testing React Router*
+- [x] 15-4: *Project - Test in React*
+
+##### Block 16: State Manager with Redux
+- [x] 16-1: *Redux Introduction*
+- [x] 16-2: *Using Redux in React*
+- [x] 16-3: *Using redux in React - practice*
+- [x] 16-4: *Using Redux in React - Async Actions - Redux Thunk*
+- [x] 16-5: *Tests in React-Redux*
+- [x] 16-6: *Project - Trybe Wallet*
+
+##### Block 17: Team Project - Trivia Game With React
+- [x] 17-1: *Project - Trivia Game*
+
+##### Block 18: Context API and React Hooks
+- [x] 18-1: *React Context API*
+- [x] 18-2: *React Hooks - useState and useContext*
+- [x] 18-3: *React Hooks - useEffect and Custom Hooks*
+- [x] 18-4: *Project - StarWars Datatable with contexAPI and Hooks*
+
+##### Block 19: Team Project - Trybe Food
+- [x] 19-1: *Project - Trybe Food*
