@@ -123,4 +123,4 @@ The [Trybe](https://www.betrybe.com/) program has more than **1,500 hours** of c
 - [x] 18-4: *Project - StarWars Datatable with contexAPI and Hooks*
 
 ##### Block 19: Team Project - Trybe Food
-- [x] 19-1: *Project - Trybe Food*
+- [ ] 19-1: *Project - Trybe Food*
