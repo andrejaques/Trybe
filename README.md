@@ -123,4 +123,41 @@ The [Trybe](https://www.betrybe.com/) program has more than **1,500 hours** of c
 - [x] 18-4: *Project - StarWars Datatable with contexAPI and Hooks*
 
 ##### Block 19: Team Project - Trybe Food
-- [*] 19-1: *Project - Trybe Food*
+- [x] 19-1: *Project - Trybe Food*
+
+
+## Back-end development 
+
+
+##### Block 20: SQL - Introduction
+- [x] 20-1: *Introduction to Back-end*
+- [x] 20-2: *Introduction to relational databases*
+- [x] 20-3: *SQL Database*
+- [x] 20-4: *Finding data*
+- [x] 20-5: *Specific data filters*
+- [x] 20-6: *Tables manipulation*
+- [x] 20-7: *Project - All for One*
+
+##### Block 21: SQL Functions, Joins and Subqueries
+- [x] 21-1: *Most used functions in SQL*
+- [x] 21-2: *JOINs, UNIONs and Subqueries*
+- [x] 21-3: *Stored Routimes and Stored Functions*
+- [x] 21-4: *Project - Vocabulary Booster*
+
+##### Block 22: SQL - Normalizing and Modeling Databases
+- [x] 22-1: *Transforming ideas in database models - part 01*
+- [x] 22-2: *Normalizing: normal forms and dumps*
+- [x] 22-3: *Transforming ideas in database models - part 02*
+- [x] 22-4: *Project - One for All*
+
+##### Block 23: NoSQL - Introduction to MongoDB
+- [x] 23-1: *Introduction to NoSQL*
+- [x] 23-2: *Introduction to MongoDB*
+- [x] 23-3: *Filter Operators*
+- [x] 23-4: *Project - Data Flights*
+
+##### Block 24: MongoDB - Simple and Complex Updates
+- [x] 24-1: *Simple Updates*
+- [x] 24-2: *Complex Updates - Arrays - Part 01*
+- [x] 24-3: *Complex Updates - Arrays - part 02*
+- [ ] 24-4: *Project - Commerce*
