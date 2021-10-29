@@ -1,0 +1,4 @@
+This folder is to create data interfaces to control the entities types. 
+We can use typescript too.
+
+The most interesting application is controlling the CRUD data.

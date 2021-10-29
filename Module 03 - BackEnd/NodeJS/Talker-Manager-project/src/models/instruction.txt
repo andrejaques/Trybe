@@ -1,0 +1,2 @@
+This folder is to structure the interactions with database
+We have no database interactions in this project.
