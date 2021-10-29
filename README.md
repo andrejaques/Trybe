@@ -160,4 +160,19 @@ The [Trybe](https://www.betrybe.com/) program has more than **1,500 hours** of c
 - [x] 24-1: *Simple Updates*
 - [x] 24-2: *Complex Updates - Arrays - Part 01*
 - [x] 24-3: *Complex Updates - Arrays - part 02*
-- [ ] 24-4: *Project - Commerce*
+- [x] 24-4: *Project - Commerce*
+
+##### Block 25: MongoDB - Aggregations Framework
+- [x] 25-1: *Aggregation Framework - Part 01*
+- [x] 25-2: *Aggregation Framework - Part 02*
+- [x] 25-3: *Project - Aggregations*
+
+##### Block 26: NodeJS - Introduction to Web Developer
+- [x] 26-1: *Introduction to NodeJS*
+- [x] 26-2: *Async Flux*
+- [x] 26-3: *Tests*
+- [x] 26-4: *Express: HTTP with NodeJS*
+- [x] 26-5: *Express: Middlewares*
+- [x] 26-6: *Project - Talker Manager*
+
+
