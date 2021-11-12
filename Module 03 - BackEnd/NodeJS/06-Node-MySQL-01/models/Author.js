@@ -1,6 +1,6 @@
 const connection = require('./connection');
 
-// Cria uma string com o nome completo do autor
+// generate an string with the author's full name
 const getModAuthors = ({id, firstName, middleName, lastName}) => {
   const fullName = [firstName, middleName, lastName].filter((name) => name).join(' ');
   return {
@@ -12,7 +12,7 @@ const getModAuthors = ({id, firstName, middleName, lastName}) => {
   }
 };
 
-// Converte o nome dos campos de snake_case para camelCase
+// convert snake_case to camelCase
 const serialize = (authorData) => {
   return {
     id: authorData.id,
@@ -22,14 +22,14 @@ const serialize = (authorData) => {
   }
 };
 
-// Busca todos os autores do banco.
+// Search all authors
 const getAll = async () => {
   const [authors] = await connection.execute('SELECT id, first_name, middle_name, last_name FROM authors');
 
   return authors.map(serialize).map(getModAuthors);
 };
 
-// Busca um autor pelo id.
+// Search for an author by id
 const getById = async (id) => {
   const [authorData] = await connection.execute('SELECT id, first_name, middle_name, last_name FROM authors WHERE id = ?', [id]);
 
@@ -45,7 +45,34 @@ const getById = async (id) => {
   });
 };
 
+// check if is a valid author
+const isValid = (firstName, _middleName, lastName) => {
+  if (!firstName || typeof firstName !== 'string') return false;
+  if (!lastName || typeof lastName !== 'string') return false;
+  
+  return true;
+};
+
+// create an author
+const create = async (firstName, middleName, lastName) => {
+  return await connection.execute(
+    'INSERT INTO authors (first_name, middle_name, last_name) VALUES (?, ?, ?)',
+    [firstName, middleName, lastName]);
+};
+
+// delete an author
+const deleteById = async (id) => {
+  const [authorData] = await connection.execute('SELECT id FROM authors WHERE id = ?', [id]);
+
+  if (authorData.length === 0) return null;
+
+  return await connection.execute('DELETE FROM authors WHERE id = ?', [id]);
+};
+
 module.exports = {
   getAll,
   getById,
+  isValid,
+  create,
+  deleteById,
 };
