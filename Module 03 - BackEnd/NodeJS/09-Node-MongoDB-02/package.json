@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "start": "node index.js",
+    "debug": "node --inspect index.js" 
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongodb": "^4.1.4"
+  }
+}
