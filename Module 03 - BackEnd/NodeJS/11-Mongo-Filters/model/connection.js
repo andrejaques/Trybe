@@ -1,11 +1,9 @@
 const { MongoClient } = require('mongodb');
 
 const URL = 'mongodb://localhost:27017';
-const DB_NAME = 'music';
+const DB_NAME = 'rest';
 
 let connection = null;
-
-// Singleton
 
 module.exports = async () => {
   try {
